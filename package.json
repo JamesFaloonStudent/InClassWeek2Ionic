@@ -10,7 +10,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "bulid" : "ionic bulid --output-path newApp --base-href ./ "
+    "ionic:build" : "ng build --output-path newApp --base-href ./"
   },
   "private": true,
   "dependencies": {
