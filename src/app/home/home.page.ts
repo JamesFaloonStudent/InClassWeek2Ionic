@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
   standalone: false,
 })
 export class HomePage {
-
+  title = "In Class 2 "
+  footer = "James Faloon 2025:"
   constructor() {}
 
 }
