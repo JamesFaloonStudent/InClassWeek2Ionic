@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { ComponentsModule } from '../../components/components.module';
 import { IonicModule } from '@ionic/angular';
+import { Man } from '../../classSetups'
+
+
 @Component({
   selector: 'app-page1',
   templateUrl: './page1.page.html',
@@ -10,6 +13,7 @@ import { IonicModule } from '@ionic/angular';
 })
 export class Page1Page implements OnInit {
 
+  man : Man = {fname : "", lname : "", nname : ""}
   constructor() { }
 
   ngOnInit() {
