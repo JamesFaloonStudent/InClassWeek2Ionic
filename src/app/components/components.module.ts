@@ -10,8 +10,9 @@ import { C1Component } from './c1/c1.component'
   imports: [
     CommonModule,
     IonicModule,
-    FormsModule
+    FormsModule,
+    C1Component
   ],
-  export : [C1Component]
+  exports : [C1Component]
 })
 export class ComponentsModule { }
