@@ -1,10 +1,12 @@
-<ion-item>
-  <ion-label position="stacked">Personal Profile</ion-label>
-  <ion-input placeholder="First name"
-  [(ngModel)]="man.fname"></ion-input>
-  <ion-input placeholder="Last name"
-  [(ngModel)]="man.lname"></ion-input>
-  <ion-input placeholder="Nick name"
-  [(ngModel)]="man.nname"></ion-input>
-</ion-item>
-<app-c1 [c1Info]="man"> </app-c1>
+<ion-content>
+  <ion-item>
+    <ion-label position="stacked">Personal Profile</ion-label>
+    <ion-input placeholder="First name"
+    [(ngModel)]="man.fname"></ion-input>
+    <ion-input placeholder="Last name"
+    [(ngModel)]="man.lname"></ion-input>
+    <ion-input placeholder="Nick name"
+    [(ngModel)]="man.nname"></ion-input>
+  </ion-item>
+  <app-c1 [c1Info]="man"> </app-c1>
+</ion-content>
