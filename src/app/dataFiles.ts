@@ -1,6 +1,6 @@
-import { pData } from './classSetups.ts'
+import { PData } from './classSetups'
 
-export const pageData : pData = {
+export const PAGEDATA : PData = {
   fname : "James",
   lname : "Faloon",
   nname : "Jimmy"
